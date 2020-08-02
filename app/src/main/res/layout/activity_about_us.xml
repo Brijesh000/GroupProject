@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="left"
     android:background="@drawable/grad_bg"
     tools:context=".AboutUs">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="601dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -22,14 +23,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <!--start e1-->
+            <!--end e1-->
+
+            <!--start e2-->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15sp"
                 android:background="@color/cardview_light_background"
                 android:clipToPadding="false"
-                android:foregroundGravity="center"
-                android:padding="15sp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="50sp">
 
@@ -76,17 +78,13 @@
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-            <!--end e1-->
 
-            <!--start e2-->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15sp"
                 android:background="@color/cardview_light_background"
                 android:clipToPadding="false"
-                android:foregroundGravity="center"
-                android:padding="15sp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="50sp">
 
@@ -144,8 +142,6 @@
                 android:layout_margin="15sp"
                 android:background="@color/cardview_light_background"
                 android:clipToPadding="false"
-                android:foregroundGravity="center"
-                android:padding="15sp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="50sp">
 
