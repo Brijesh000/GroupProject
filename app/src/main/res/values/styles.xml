@@ -24,4 +24,29 @@
         <item name="android:layout_marginTop">24sp</item>
         <item name="android:layout_marginRight">30sp</item>
     </style>
+
+<!--This section only for About us page-->
+    <style name="about_img">
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">150dp</item>
+    </style>
+
+    <style name="about_name">
+        <item name="android:paddingTop">10sp</item>
+        <item name="android:paddingBottom">10sp</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/txt_color</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="about_txt">
+        <item name="android:paddingTop">2sp</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:textColor">@color/txt_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+<!--  end  -->
+
 </resources>

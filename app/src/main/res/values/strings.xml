@@ -2,8 +2,27 @@
     <string name="app_name">Git Project</string>
     <string name="todo">TODO</string>
     <string name="login">LogIn</string>
-    <string name="signup">SignUp?</string>
+    <string name="sign_up">SignUp?</string>
     <string name="hint_e">Username</string>
     <string name="hint_p">Password</string>
 
+<!--  This is only for About us page  -->
+<!--  e_n = name  -->
+<!--  e_e = enrolment no -->
+<!--  e_em = mail  -->
+    <string name="e1_n">Rinkal Talaviya</string>
+    <string name="e1_e">18SOECE11062</string>
+    <string name="e1_em">rtalaviya413@rku.ac.in</string>
+    <string name="txt1">rinkal</string>
+
+    <string name="e2_n">Ronak Pansuriya</string>
+    <string name="e2_e">18SOECE11097</string>
+    <string name="e2_em">rpansuriya765@rku.ac.in</string>
+    <string name="txt2">ronak</string>
+
+    <string name="e3_n">Brijesh Soneji</string>
+    <string name="e3_e">19SOECE13019</string>
+    <string name="e3_em">bsoneji755@rku.ac.in</string>
+    <string name="txt3">brijesh</string>
+    <!--  end  -->
 </resources>
