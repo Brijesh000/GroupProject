@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@drawable/grad_bg"
     tools:context=".MainActivity">
 
     <ImageView
@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icon" />
+        app:srcCompat="@drawable/image" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -36,12 +36,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/orange"
             android:orientation="vertical">
 
             <EditText
                 android:id="@+id/editTextTextEmailAddress"
                 style="@style/txt_box"
                 android:ems="10"
+                android:drawableLeft="@drawable/ic_action_user"
                 android:hint="@string/hint_e"
                 android:inputType="textEmailAddress" />
 
@@ -49,6 +51,7 @@
                 android:id="@+id/editTextTextPassword"
                 style="@style/txt_box"
                 android:ems="10"
+                android:drawableLeft="@drawable/ic_action_password"
                 android:hint="@string/hint_p"
                 android:inputType="textPassword" />
 
@@ -63,9 +66,9 @@
                 android:layout_marginBottom="10sp"
                 android:width="300sp"
                 android:height="60sp"
-                android:backgroundTint="@color/button"
+                android:backgroundTint="@color/accent"
                 android:text="@string/login"
-                android:textColor="@color/txt"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
 
             <LinearLayout
@@ -82,7 +85,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:textColor="@color/signup"
+                    android:textColor="@color/accent"
+                    android:textStyle="bold"
                     android:text="@string/signup" />
 
             </LinearLayout>
