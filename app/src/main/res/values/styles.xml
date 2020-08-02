@@ -47,6 +47,11 @@
         <item name="android:textSize">20sp</item>
     </style>
 
+    <style name="card">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">11dp</item>
+    </style>
+
 <!--  end  -->
 
 </resources>
