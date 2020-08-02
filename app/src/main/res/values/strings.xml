@@ -10,10 +10,10 @@
     <string name="hint_email">Email Id</string>
     <string name="hint_message">Message</string>
 
-<!--  This is only for About us page  -->
-<!--  e_n = name  -->
-<!--  e_e = enrolment no -->
-<!--  e_em = mail  -->
+    <!--  This is only for About us page  -->
+    <!--  e_n = name  -->
+    <!--  e_e = enrolment no -->
+    <!--  e_em = mail  -->
     <string name="e1_n">Rinkal Talaviya</string>
     <string name="e1_e">18SOECE11062</string>
     <string name="e1_em">rtalaviya413@rku.ac.in</string>
