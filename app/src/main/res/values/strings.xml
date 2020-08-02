@@ -2,9 +2,13 @@
     <string name="app_name">Git Project</string>
     <string name="todo">TODO</string>
     <string name="login">LogIn</string>
+    <string name="submit">Submit</string>
     <string name="sign_up">SignUp?</string>
     <string name="hint_e">Username</string>
     <string name="hint_p">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email Id</string>
+    <string name="hint_message">Message</string>
 
 <!--  This is only for About us page  -->
 <!--  e_n = name  -->

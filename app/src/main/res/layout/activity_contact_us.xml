@@ -8,9 +8,97 @@
     tools:context=".ContactUs">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="409dp"
-        android:layout_height="400dp" >
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/orange"
+        android:foregroundGravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img">
 
+
+        <ScrollView
+            android:id="@+id/sv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:paddingBottom="50sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/orange"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/txtName"
+                        style="@style/txt_box"
+                        android:layout_marginTop="50sp"
+                        android:autofillHints=""
+                        android:drawableStart="@drawable/ic_action_name"
+                        android:ems="10"
+                        android:hint="@string/hint_name"
+                        android:inputType="textEmailAddress" />
+
+                    <EditText
+                        android:id="@+id/txtEmail"
+                        style="@style/txt_box"
+                        android:autofillHints=""
+                        android:drawableStart="@drawable/ic_action_email"
+                        android:ems="10"
+                        android:hint="@string/hint_email"
+                        android:inputType="textPassword" />
+
+                    <EditText
+                        android:id="@+id/txtMessage"
+                        android:autofillHints=""
+                        android:drawableStart="@drawable/ic_action_message"
+                        android:layout_height="150dp"
+                        android:ems="10"
+                        style="@style/txt_box"
+                        android:hint="@string/hint_message"
+                        android:inputType="textMultiLine" />
+
+                    <Button
+                        android:id="@+id/submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30sp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30sp"
+                        android:layout_marginBottom="10sp"
+                        android:width="300sp"
+                        android:height="60sp"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/submit"
+                        android:textColor="@color/txt"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginBottom="15sp"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
 
     </androidx.cardview.widget.CardView>
 
