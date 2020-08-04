@@ -26,7 +26,28 @@
             android:paddingBottom="50sp"
             android:weightSum="1">
 
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/v"
+                android:textColor="@color/txt"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingTop="30dp"
+                android:paddingLeft="20dp"
+                android:text="@string/d"
+                android:textColor="@color/txt"
+                android:textSize="20sp"/>
             <!--start e1-->
+
+
             <androidx.cardview.widget.CardView
                 style="@style/card"
                 android:layout_width="match_parent"
